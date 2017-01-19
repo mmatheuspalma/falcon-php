@@ -21,7 +21,7 @@ Exemplos :
 
 
 -- addItem();
---- Com esta função você podera adicionar um 'item' ao banco de dados apenas inserindo a variavel $_POST vinda do formulário, a função possui 3 parametros sendo eles : imagens(variavel do tipo $_FILES), dados (variavel do tipo $_POST), miniatura( variavel do tipo $_FILES), não se preocupe, seus dados serão inseridos de acordo com as configurações feitas pela função config() ou seja nada de declarar os campos e os valores que serão inseridos ( assim como é feito em querys normais ), caso algum de seus campos for do tipo matriz ( array ) ele automaticamente será serializado.
+--- Com esta função você podera adicionar um 'item' ao banco de dados apenas inserindo a variavel $_POST vinda do formulário, a função possui 3 parametros sendo eles 2 opcionais : imagens(variavel do tipo $_FILES), miniatura( variavel do tipo $_FILES) e 1 obrigatorio dados (variavel do tipo $_POST), não se preocupe, seus dados serão inseridos de acordo com as configurações feitas pela função config() ou seja nada de declarar os campos e os valores que serão inseridos ( assim como é feito em querys normais ), caso algum de seus campos for do tipo matriz ( array ) ele automaticamente será serializado.
 
 
 -- upItem();

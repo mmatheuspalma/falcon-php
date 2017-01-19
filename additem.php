@@ -1,5 +1,5 @@
 <?php 
-  require 'falcon.class.php';
+  require 'class/falcon.class.php';
 
   $falcon = new falcon;
   

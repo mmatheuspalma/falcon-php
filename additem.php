@@ -23,6 +23,6 @@
     // Configuração do item, nome ( pode ser diferente do que esta na tabela ) e tabela.
     $falcon->config('item','produtos');
     // adiciona os campos vindo do $_POST, de acordo com as configurações da função config().
-    $falcon->add($_POST);  
+    $falcon->addItem($_POST);  
   }
 ?>

@@ -4,6 +4,7 @@ A proposta desta classe é de agilizar o desenvolvimento de scripts de interaç�
 
 A classe ainda está sendo atualizada, mas por falta de tempo não tive como ajustar algumas coisas.
 
+
 Exemplos :
 - Funções
 

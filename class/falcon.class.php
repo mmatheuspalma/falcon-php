@@ -305,7 +305,7 @@
 		}
 
 		// Item controller
-		public function addItem($images,$values,$thumb){
+		public function addItem($images = false,$values,$thumb = false){
 			$fields = $this->fields($this->table);
 			$values = $this->values2($values);
 

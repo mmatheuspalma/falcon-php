@@ -27,7 +27,7 @@ Exemplos :
 -- upItem();
 --- Com esta função você podera editar seus 'items' os parametros são : criterio ( podendo ser id,nome e etc ), campo a ser buscado pelo criterio ( podendo ser id,nome e etc ), imagens ( variavel do tipo $_FILES ), dados ( variavel do tipo $_POST ), miniatura ( variavel do tipo $_FILES).
 
--- delItem();
+-- del();
 --- Com esta função você vai poder deletar um ou mais 'items' os parametros são : criterio ( podendo ser id,nome e etc ), campo a ser buscado pelo criterio ( podendo ser id,nome e etc ), redirecionamento.
 
 A classe possui mais funções a serem exploradas, que tal contribuir para melhora-la ?.
